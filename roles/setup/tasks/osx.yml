@@ -41,11 +41,11 @@
     state: present
 
 # increase mouse speed
-- osx_defaults:
-    key: com.apple.mouse.scaling
-    type: string
-    value: 4
-    state: present
+# - osx_defaults:
+#     key: com.apple.mouse.scaling
+#     type: string
+#     value: 4
+#     state: present
 
 # fixes Rectangle window snap for iTerm2
 - osx_defaults:
@@ -56,14 +56,14 @@
     state: present
     
 # use standard function keys
-- osx_defaults:
-    key: com.apple.keyboard.fnState
-    type: bool 
-    value: true
-    state: present
+# - osx_defaults:
+#     key: com.apple.keyboard.fnState
+#     type: bool 
+#     value: true
+#     state: present
 
-- name: map Esc(ape) to Caps Lock
-  command: hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x700000029}]}'
+# - name: map Esc(ape) to Caps Lock
+#   command: hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x700000029}]}'
 
 - name: make Library directory visible
   command: chflags nohidden ~/Library

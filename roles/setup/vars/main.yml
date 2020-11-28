@@ -3,7 +3,7 @@
 homebrew:
   packages:
     - ansible
-    - awless
+    # - awless
     - awscli
     - antibody
     - bat
@@ -13,58 +13,64 @@ homebrew:
     - fzf
     - gradle
     - git
-    - go
+    # - go
     - groovy
     - httpie
-    - jq
-    - jrnl
-    - derailed/k9s/k9s
-    - kubectl
+    # - jq
+    # - jrnl
+    # - derailed/k9s/k9s
+    # - kubectl
+    - logitech-options
     - maven
-    - minikube
+    # - minikube
     - neovim
     - node
     - nvm
     - prettyping
-    - procs
+    # - procs
     - python
-    - rustup
+    # - rustup
     - speedtest-cli
-    - task
-    - tasksh
+    # - task
+    # - tasksh
     - terraform
-    - the_silver_searcher
+    # - the_silver_searcher
     - thefuck
     - tldr
-    - tmux
+    # - tmux
     - tree
     - yarn
     - zsh
   casks:
     - AdoptOpenJDK/openjdk
     - clementtsang/bottom
+    - homebrew/cask-drivers
     - homebrew/cask-fonts
-    - wallix/awless
+    # - wallix/awless
   applications:
     - adoptopenjdk8 
     - adoptopenjdk11
     - discord
-    - dashlane
+    # - dashlane
     - docker
     - firefox
     - font-hack-nerd-font
-    - hyper
+    # - hyper
     - google-chrome
     - iterm2
-    - kap
-    - keybase
     - jetbrains-toolbox
+    # - kap
+    # - keybase
+    - lastpass
+    # - ngrok
     - pingplotter
-    - ngrok
+    - postman
     - rectangle
     - slack
     - spotify
-    - spotmenu
-    - vagrant
-    - virtualbox
+    - tuple
+    # - spotmenu
+    # - vagrant
+    # - virtualbox
     - visual-studio-code
+    - zoomus
