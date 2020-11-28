@@ -54,7 +54,7 @@ homebrew:
     # - dashlane
     - docker
     - firefox
-    - font-hack-nerd-font
+    # - font-hack-nerd-font
     # - hyper
     - google-chrome
     - iterm2
