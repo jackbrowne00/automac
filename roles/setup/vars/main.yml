@@ -40,6 +40,12 @@ homebrew:
     # - tree
     - yarn
     - zsh
+  casks:
+    # - AdoptOpenJDK/openjdk
+    # - clementtsang/bottom
+    - homebrew/cask-drivers
+    - homebrew/cask-fonts
+    # - wallix/awless
   applications:
     # - adoptopenjdk8
     # - adoptopenjdk11
