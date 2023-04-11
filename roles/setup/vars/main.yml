@@ -1,56 +1,55 @@
 ---
-
 homebrew:
   packages:
     - ansible
     # - awless
     - awscli
-    - antibody
-    - bat
-    - bottom
-    - exa
-    - fd
-    - fzf
-    - gradle
+    # - antibody
+    # - bat
+    # - bottom
+    # - exa
+    # - fd
+    # - fzf
+    # - gradle
     - git
     # - go
-    - groovy
-    - httpie
+    # - groovy
+    # - httpie
     # - jq
     # - jrnl
     # - derailed/k9s/k9s
     # - kubectl
-    - logitech-options
-    - maven
+    # - logitech-options
+    # - maven
     # - minikube
-    - neovim
+    # - neovim
     - node
     - nvm
-    - prettyping
+    # - prettyping
     # - procs
-    - python
+    # - python
     # - rustup
-    - speedtest-cli
+    # - speedtest-cli
     # - task
     # - tasksh
     - terraform
     # - the_silver_searcher
-    - thefuck
-    - tldr
+    # - thefuck
+    # - tldr
     # - tmux
-    - tree
+    # - tree
     - yarn
     - zsh
   casks:
-    - AdoptOpenJDK/openjdk
-    - clementtsang/bottom
-    - homebrew/cask-drivers
-    - homebrew/cask-fonts
+    # - AdoptOpenJDK/openjdk
+    # - clementtsang/bottom
+    # - homebrew/cask-drivers
+    # - homebrew/cask-fonts
     # - wallix/awless
   applications:
-    - adoptopenjdk8 
-    - adoptopenjdk11
-    - discord
+    # - adoptopenjdk8
+    # - adoptopenjdk11
+    # - discord
     # - dashlane
     - docker
     - firefox
@@ -58,16 +57,16 @@ homebrew:
     # - hyper
     - google-chrome
     - iterm2
-    - jetbrains-toolbox
+    # - jetbrains-toolbox
     # - kap
     # - keybase
-    - lastpass
+    # - lastpass
     # - ngrok
-    - pingplotter
+    # - pingplotter
     - postman
     - rectangle
     - slack
-    - spotify
+    # - spotify
     - tuple
     # - spotmenu
     # - vagrant
